@@ -1,0 +1,68 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+#header {
+	position: fixed;
+	height: 55px;
+	background-color: #252525;
+	font-family: sans-serif;
+	color: white;
+	width: 88%;
+	margin-left: 6%;
+	top: 0px;
+}
+
+#header > img {
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	margin-top: 5px;
+	margin-left: 30px;
+	float: left;
+}
+
+#header > h1 {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 23px;
+}
+
+#main-page {
+	margin-left: 6%;
+	width: 88%;
+}
+
+.card {
+	border: 1px solid #333;
+	border-radius: 8px;
+	padding: 10px;
+	display: inline-block;
+	background-color: #efefef;
+	min-width: calc(33% - 20px);
+}
+
+#hero-card {
+	margin-top: 90px;
+	height: 80vh;
+	background-image: url("imgs/march-madness-hero.jpg");
+	background-size: cover;
+}
+
+#hero-card > h1 {
+	color: white;
+	background-color: #0053a0;
+	display: inline-block;
+	padding: 20px 30px;
+	font-size: 30pt;
+	margin-top: 170px;
+	margin-left: 130px;
+	box-shadow: 10px 10px #252525;
+	cursor: pointer;
+}
+
+#hero-card > h1:hover {
+	background-color: #0161B9;
+}
