@@ -1,4 +1,5 @@
 var firebase = require("firebase/app");
+require("firebase/database");
 
 // Initialize Firebase
 var config = {
